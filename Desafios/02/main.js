@@ -28,3 +28,6 @@ const answer = () => {
 }
 
 btn.addEventListener("click", answer);
+
+
+//ainda n implementado o calculo de possibilidades
