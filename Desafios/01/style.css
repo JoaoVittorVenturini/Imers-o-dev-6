@@ -9,6 +9,12 @@
 body {
   display: flex;
   flex-direction: row;
+  text-align: center;
+  background-image: url("https://4kwallpapers.com/images/wallpapers/outrun-neon-dark-background-purple-1920x1080-4523.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
   width: 100vw;
   height: 100vh;
   color: #fff;
@@ -30,17 +36,6 @@ body {
   align-items: center;
   justify-content: center;
   width: 100%;
-}
-.desafio-1 {
-  background: linear-gradient(0deg, #00416A 0%, #E4E5E6 100%);
-}
-
-.desafio-2 {
-  background: linear-gradient(0deg, #091E3A 0%, #2F80ED 50%, #2D9EE0 100%);
-}
-
-.desafio-3 {
-  background: linear-gradient(0deg, #2B5876 0%, #4E4376 100%);
 }
 
 .title {
@@ -71,7 +66,7 @@ input {
 .btn {
   width: 100%;
   height: 50px;
-  background: #D77C3B;
+  background: #9432C2;
   border-radius: 8px;
   border: none;
   margin: 20px 0;
