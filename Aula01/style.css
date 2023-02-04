@@ -1,12 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 body {
-  font-family: "Roboto Mono", monospace;
-  text-align: center;
-  background-image: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
+  display: flex;
+  align-items:	center;
+  justify-content: center;
+  background: url("https://caelum-online-public.s3.amazonaws.com/assets-imersaodev/Background.png");
   background-color: #000000;
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
+  width: 100vw;
   height: 100vh;
+  color: #fff;
 }
 
 .container {
@@ -26,6 +37,7 @@ body {
 
 .page-logo {
   width: 200px;
+  margin-bottom: 20px;
 }
 
 .alura-logo {
@@ -41,4 +53,53 @@ body > img {
 
 img {
   max-height: 250px;
+}
+
+.wrapper {
+  width: 400px;
+  background: radial-gradient(97.57% 210.75% at 0.9% 2.98%, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.2) 100%, rgba(255, 255, 255, 0.2) 100%);
+backdrop-filter: blur(50px);
+  border-radius: 16px;
+  border: 2px solid #EFEFEF;
+  padding: 30px;
+}
+
+.title {
+  text-align: start;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: #EFEFEF;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  text-align: start;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  height: 60px;
+  background: #DCDCDC;
+  border-radius: 8px;
+  border: none;
+  margin: 20px 0;
+  padding: 0 20px;
+  font-size: 1.1rem;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background: #FF781F;
+  border-radius: 8px;
+  border: none;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
 }

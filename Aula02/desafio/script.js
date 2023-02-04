@@ -14,9 +14,9 @@ const answer = () => {
     if(valor.value == secretNumber) {
       document.querySelector('.resultado').innerText = "Parabéns! Você acertou!";
     } else if( valor.value > secretNumber) {
-      document.querySelector('.resultado').innerText = "O número secreto é menor";
+      document.querySelector('.resultado').innerText = "O número secreto é menor que " + valor.value;
     } else {
-      document.querySelector('.resultado').innerText = "O número secreto é maior";
+      document.querySelector('.resultado').innerText = "O número secreto é maior que " + valor.value;
     }
     
     tentativa.innerText = parseInt(tentativa.innerText) + 1;
